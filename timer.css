@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer-container{
+    text-align: center;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#timer{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 8px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #0056b3
+}
